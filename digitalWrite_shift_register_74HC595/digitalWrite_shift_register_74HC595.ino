@@ -8,7 +8,7 @@ int SH_CP = 13; //defining pins
 int ST_CP = 12;
 int DS = 11;
 
-int nr_shift_register = 1; //number of shift register
+int nr_shift_register = 1; //number of shift registers
 int comb = 0; //
 
 void digWr(int pin_nr, boolean state){

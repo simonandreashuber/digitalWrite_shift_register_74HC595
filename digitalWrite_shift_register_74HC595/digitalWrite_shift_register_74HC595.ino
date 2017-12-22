@@ -9,7 +9,7 @@ int ST_CP = 12;
 int DS = 11;
 
 int nr_shift_register = 1; //number of shift registers
-int comb = 0; //
+int comb = 0;
 
 void digWr(int pin_nr, boolean state){
   if(state == HIGH){

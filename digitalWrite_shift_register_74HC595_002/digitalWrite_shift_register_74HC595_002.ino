@@ -10,8 +10,8 @@ int SH_CP = 13; //defining pins
 int ST_CP = 12;
 int DS = 11;
 
-int nr_shift_register = 3; //number of shift registers
-int comb[3]; // put number of shift registers in the array size  (same as above), it is some how not possible to use the var nr_shift_register
+const int nr_shift_register = 3; //number of shift registers
+int comb[nr_shift_register];
 
 
 void digWr_exec(int pin_nr_exec, int state_exec, int nr_shift_register_exec){

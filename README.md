@@ -13,9 +13,7 @@ int ST_CP = 12;
 int DS = 11;
 
 const int nr_shift_register = 3; //number of shift registers
-
 ```
-
 ---
 
 ## Questions & Feedback

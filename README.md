@@ -5,3 +5,23 @@ This is a small script which allows you to use the shift register 74HC595 with a
 I would say you can use "digitalWrite_shift_register_74HC595_002" for as much shift register as you want, but no guarante.
 
 You are allowed to use it for your project. I would appreciate it if you give me credits, but you don't have to. You are not allowed to  claim its your work or upload just my file under your name.
+
+
+
+### about
+This originates from a school project, where we had to find prime factors of a huge number written with multible exponents. I thougth writing code which would work for all numbers with multible exponents, would be a usefull thing.
+
+### usage
+create an ```ime``` (Integer with Multible Exponents) like this: ```ime example({2,3,7});```. (example = 2^3^7)
+
+calculate mod like this: ```example % 1999``` or ```example.mod(1999)```.
+
+---
+
+## Questions & Feedback
+Direct your questions to: simon.huber17@gmail.com
+
+---
+
+## License & Copyright
+This Project is licensed under the [MIT License](LICENSE).

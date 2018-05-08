@@ -7,9 +7,14 @@ This is a small script which allows you to use the shift register 74HC595 with a
 I would say you can use "digitalWrite_shift_register_74HC595_002" for as much shift register as you want, but no guarante.
 
 ### usage
-create an ```ime``` (Integer with Multible Exponents) like this: ```ime example({2,3,7});```. (example = 2^3^7)
+```
+int SH_CP = 13; //defining pins
+int ST_CP = 12;
+int DS = 11;
 
-calculate mod like this: ```example % 1999``` or ```example.mod(1999)```.
+const int nr_shift_register = 3; //number of shift registers
+
+```
 
 ---
 

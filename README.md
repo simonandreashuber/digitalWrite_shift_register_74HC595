@@ -15,7 +15,7 @@ int DS = 11;
 
 const int nr_shift_register = 3; //number of shift registers
 ```
-DONE
+DONE :trollface:
 
 ---
 

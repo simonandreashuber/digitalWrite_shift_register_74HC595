@@ -8,7 +8,7 @@ I would say you can use "digitalWrite_shift_register_74HC595_002" for as much sh
 
 ### usage
 Fill in the parameters for your specific configuration:
-```
+```C++
 int SH_CP = 13; //defining pins
 int ST_CP = 12;
 int DS = 11;

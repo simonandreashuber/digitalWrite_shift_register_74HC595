@@ -7,6 +7,7 @@ This is a small script which allows you to use the shift register 74HC595 with a
 I would say you can use "digitalWrite_shift_register_74HC595_002" for as much shift register as you want, but no guarante.
 
 ### usage
+Fill in the parameters for your specific configuration:
 ```
 int SH_CP = 13; //defining pins
 int ST_CP = 12;
@@ -14,6 +15,8 @@ int DS = 11;
 
 const int nr_shift_register = 3; //number of shift registers
 ```
+DONE
+
 ---
 
 ## Questions & Feedback
